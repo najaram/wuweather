@@ -1,0 +1,33 @@
+.wu-weather-weather h2{
+    font-size: 5em;
+    color: orange;
+}
+.wu-weather-weather {
+    position: relative;
+    width: 113px;
+    float: left;
+}
+.wu-weather-summary h3 {
+    font-size: 2em;
+}
+.wu-weather-deg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: orange;
+}
+.wu-weather-deg:before {
+    content: '\00b0';
+}
+.wu-weather-weather-icon {
+    float: left;
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 100%;
+    border: 3px solid orange;
+    height: 90px;
+    width: 90px;
+}
+.wu-weather-weather-icon p {
+    font-size: 11px;
+}
